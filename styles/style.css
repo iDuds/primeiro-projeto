@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root { 
+    --cor-primaria: #ad09ff;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #000000;
+    --cor-quaternaria:  #f01941;  
+    --cor-quintaria:  #52007bea ;
+    --cor-sexta: #E4B1F0;
+
+
+
+
+  --fonte-principal: 'montserrat', sans-serif;
+  --fonte-secundaria: 'Gelasio', serif;
+}
+
+
+    
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+
+
+
+
+
+.cabecalho {
+    padding: 4% 0% 0% 8%;
+}
+
+
+
+.cabecalho__menu{
+   display: flex;
+   gap: 80px;
+}
+
+
+
+
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.625rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--cor-primaria);
+    text-decoration: none;
+
+}
+
+
+
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-sexta);
+    cursor: pointer;
+}
+
+
+
+
+
+
+    
+
+.apresentacao{
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    
+    
+  
+  
+}
+
+
+
+.apresentacao__conteudo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 40px;
+  text-align:justify;
+}
+
+
+
+.apresentacao__conteudo__titulo{
+   font-size: 3rem;
+    font-family: var(--fonte-secundaria);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+ color: var(--cor-primaria);
+    
+  
+   
+
+}
+
+
+titulo-destaque{
+   
+
+     color: var(--cor-primaria);
+}
+
+
+
+
+.apresentacao__conteudo__texto{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+   
+    
+}
+
+
+
+.paragrafo__em__destaque__comeback {
+    color: var(--cor-primaria);
+   
+}
+
+
+
+
+
+.paragrafo__em__destaque__comeback:hover{
+    color: var(--cor-quaternaria);
+    cursor: text;
+} 
+    
+
+
+
+.paragrafo-em-destaque{
+    color: var(--cor-primaria);
+  
+}
+
+
+
+
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+   
+    
+} 
+
+
+
+
+
+.apresentacao__links__subtitulo {
+   font-family: var(--fonte-principal);
+    font-weight:400; 
+    font-size: 1.5rem;
+   
+    
+}
+
+
+
+
+
+
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-primaria);
+    width: 45%;
+    text-align: center;
+    border-radius: 25px;
+    font-size:  1.3125rem;
+    font-weight: 600;
+    text-decoration:none; 
+    padding: 21.5px 0;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    
+    
+
+
+    
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: var(--cor-quintaria);
+    border: 2px solid var(--cor-primaria);
+    padding: 3%;
+    cursor: pointer;
+
+    
+}
+
+
+
+.apresentacao__conteudo__imagem {
+    width: 40%;
+   
+    
+}
+
+ 
+
+
+.rodape {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+@media (max-width:1358px) {
+     .cabecalho {
+        padding: 10%;
+        
+      }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+
+    .apresentacao{
+        flex-direction: column-reverse; 
+        padding: 10% 7% 10% 7% ;
+    }
+        
+    .apresentacao__conteudo{
+        width: 100%;
+      
+    }
+     
+.apresentacao__conteudo__imagem{
+        width: 90%;
+    }
+
+.apresentacao__conteudo__texto__discografia{
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+
+}
+
+
+}
+
+
+
+
+/* pagina Discografia */
+
+.apresentacao__conteudo__titulo__discografia{
+    font-family: var(--fonte-secundaria);
+    font-size: 3rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-primaria);
+    padding: 7% 0% 7%;
+}
+
+
+.apresentacao__conteudo__texto__discografia{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-secundaria);
+    padding: 0% 5% 7%;
+}
+
+.discografia__item__arirang{
+    color: var(--cor-quaternaria);
+}
+
+
+
+.discografia__item__permission{
+    color: #ff5f09;
+}
+
+.discografia__item__take-two{
+    color: #ab84ff
+}
+
+.discografia__item__butter{
+    color: #ffb809;
+}
+
+.discografia__item__dynamite{
+    color: #09ffb8;
+}
+
+.discografia__item__map-of-the-soul-7{
+    color: #09b8ff;
+}
+
+.discografia__item__map-of-the-soul-persona{
+    color: #ff7cb2;
+}
+
+.discografia__item__lover-yourself-answer{
+    color: #fa57c4e1;
+}
+
+.discografia__item__love-yourself-tear{
+    color: #2a4394;
+}
+
+.discografia__item__love-yourself-her{
+    color: #5d5d7a;
+}
+
+.discografia__item__you-never-walk-alone{
+    color: #7de6d1;
+}
+
+.discografia__item__the-most-beautiful-moment-in-life-young-forever{
+    color: #fffd8c;
+}
+
+.discografia__item__the-most-beautiful-moment-in-life-pt-2{
+    color: #c8f0ff;
+}
+
+.discografia__item__the-most-beautiful-moment-in-life-pt-1{
+    color: #ffa1a1;
+}
+
+.discografia__item__dark-&-wild{
+    color: #831012;
+}
+
+.discografia__item__skool-luv-affair{
+    color: #ff4885;
+}
+
+.discografia__item__o-rul8-2{
+    color: #bf1515;
+}
+
+
+.discografia__item__2-cool-4-skool{
+    color: #ffc45f; 
+}
