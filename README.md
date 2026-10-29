@@ -3,16 +3,16 @@
 # ​✨​Primeiro Projeto
 Fan Page desenvolvida com os cursos de HTML e CSS da Alura.
 
-
-<img width="2880" height="3540" alt="primeiro-projeto-ten-phi vercel app_discography html" src="https://github.com/user-attachments/assets/eb05f314-be33-4222-a3a7-00de66cc3e16" />
 <img width="2880" height="2516" alt="primeiro-projeto-ten-phi vercel app_ (1)" src="https://github.com/user-attachments/assets/77a58281-51c7-4272-82c2-2b4b8ac6f2af" />
+<img width="2880" height="3540" alt="primeiro-projeto-ten-phi vercel app_discography html" src="https://github.com/user-attachments/assets/eb05f314-be33-4222-a3a7-00de66cc3e16" />
 
+<img width="2048" height="6020" alt="primeiro-projeto-ten-phi vercel app_index html" src="https://github.com/user-attachments/assets/d3167fda-f0b7-43c6-a548-768afaf1546f" />
 
-
+<img width="2048" height="7000" alt="primeiro-projeto-ten-phi vercel app_discography html (1)" src="https://github.com/user-attachments/assets/6ad2aa05-0f70-44fe-b031-410ba27d6ede" />
 
 <img width="800" height="382" alt="created-gif (1)" src="https://github.com/user-attachments/assets/14020f47-29dc-433c-983b-ca2777b0daf9" />
 
-<img width="2048" height="7000" alt="primeiro-projeto-ten-phi vercel app_discography html (1)" src="https://github.com/user-attachments/assets/6ad2aa05-0f70-44fe-b031-410ba27d6ede" />
+
 
 
 ## ​🎀 Menu principal
