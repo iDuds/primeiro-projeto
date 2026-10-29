@@ -20,7 +20,8 @@ Fan Page desenvolvida com os cursos de HTML e CSS da Alura.
 <img width="800" height="377" alt="created-gif (2)" src="https://github.com/user-attachments/assets/90bf60ce-c7e4-418a-8837-02f43304654d" />
 
 
-<img width="1520" height="796" alt="paginainicial" src="https://github.com/user-attachments/assets/a2376367-393e-4545-809f-0b8502e321c3" />
+<img width="2880" height="2516" alt="primeiro-projeto-ten-phi vercel app_ (1)" src="https://github.com/user-attachments/assets/9ad7b2dd-6f01-46e6-a7c3-8f18b9fdf230" />
+
 
 
 
@@ -28,7 +29,7 @@ Fan Page desenvolvida com os cursos de HTML e CSS da Alura.
 
 <img width="800" height="377" alt="created-gif (3)" src="https://github.com/user-attachments/assets/bdc91d81-eaae-4d7c-a7bb-98b4b464f6ad" />
 
-<img width="1521" height="796" alt="paginadiscografia" src="https://github.com/user-attachments/assets/1fee1897-1415-4db4-8859-ff4c2c284c5f" />
+<img width="2880" height="3540" alt="primeiro-projeto-ten-phi vercel app_discography html" src="https://github.com/user-attachments/assets/e5bc112b-8373-41aa-9490-afd564e47461" />
 
 
 
